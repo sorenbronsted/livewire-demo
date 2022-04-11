@@ -10,6 +10,7 @@ export const CreateAccount = {
 
     methods: {
         save(event) {
+            alert('Authenticate with backend')
             this.$parent.userIsAuthenticated(event);
         },
 

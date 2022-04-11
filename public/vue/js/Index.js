@@ -11,6 +11,7 @@ export const Index = {
     },
 
     created() {
+        alert('Authenticate with backend')
         if (this.authenticated) {
             this.currentComponent = Main;
         }

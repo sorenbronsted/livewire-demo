@@ -9,6 +9,7 @@ export const Login = {
 
     methods: {
         signIn(event) {
+            alert('Authenticate with backend')
             this.$parent.userIsAuthenticated(event);
         },
 

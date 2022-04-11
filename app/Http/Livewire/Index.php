@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 
 /**
- * This components controls the whole application at the top level
+ * This component controls the whole application at the top level
  */
 class Index extends Component
 {
